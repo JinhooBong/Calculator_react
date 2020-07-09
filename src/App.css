@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Quicksand_light';
+  src: url('../src/Assets/Quicksand/static/Quicksand-Light.ttf');
+}
+
+.App {
+  text-align: center;
+  /* background: #2FDCB1; */
+  background: linear-gradient(180deg, rgba(46,220,177,1) 0%, rgba(46,220,177,1) 10%, rgba(167,252,231,1) 100%);
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
