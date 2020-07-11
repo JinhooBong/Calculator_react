@@ -2,9 +2,15 @@
     background-color: #272E37;
     /* 343838 */
     height: 70vh;
-    width: 30vw;
+    width: 600px;
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    .calculator {
+        width: 300px;
+    }
 }
 
 .displayBox {
@@ -22,6 +28,11 @@
     flex-direction: row;
 }
 
+button {
+    background-color: transparent;
+    border: 0px;
+}
+
 .buttons {
     /* border: 1px solid #fff; */
     width: 25%;
@@ -31,4 +42,9 @@
     justify-content: center;
     align-items: center;
     font-size: 2em;
+}
+
+.buttons:hover {
+    color: #dcb12e;
+    transition: color 200ms ease-in-out;
 }
