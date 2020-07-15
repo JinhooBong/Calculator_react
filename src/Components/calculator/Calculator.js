@@ -1,23 +1,22 @@
 import React from "react";
-import classes from "../calculator/Calculator.module.css";
-import DisplayComp from '../DisplayComp/DisplayComp';
+import classes from "../Calculator/Calculator.module.css";
+import Display from '../Display/Display';
 import Keypad from '../Keypad/Keypad';
 
-function Calculator() {
+class Calculator extends React.Component {
+    state = {
+        equation: '',
+        result: 0
+    }
 
-   // let buttonClicked = '';
-
-   // function display(e) {
-   //    buttonClicked = e.target.innerHTML;
-   //    console.log("button clicked " + buttonClicked);
-   // }
-
-    return(
-        <div className={classes.calculator}>
-            <DisplayComp/>
-            <Keypad />
-        </div>
-    )
+    render() {
+        return(
+            <div className={classes.calculator}>
+                <Display />
+                <Keypad />
+            </div>
+        )
+    }
 }
 
 export default Calculator;

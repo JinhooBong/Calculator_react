@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import classes from '../DisplayComp/DisplayComp.module.css';
 
-class DisplayComp extends Component {
-    render() {
-        return (
-            <div className={classes.displayBox}>
-                <p>Result</p>
-            </div>
-        )
-    }
+function DisplayComp() {
+    return (
+        <div className={classes.displayBox}>
+            3124
+        </div>
+    )
 }
 
 export default DisplayComp;
