@@ -1,7 +1,7 @@
 .calculator {
     background-color: #272E37;
     /* 343838 */
-    height: 75vh;
+    height: 80vh;
     width: 600px;
     display: flex;
     flex-direction: column;

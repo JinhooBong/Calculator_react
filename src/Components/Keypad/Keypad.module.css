@@ -6,23 +6,3 @@
     flex-direction: row;
 }
 
-button {
-    background-color: transparent;
-    border: 0px;
-}
-
-.buttons {
-    /* border: 1px solid #fff; */
-    width: 25%;
-    color: #9EEEDA;
-    font-family: 'Quicksand_light';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-}
-
-.buttons:hover {
-    color: #dcb12e;
-    transition: color 200ms ease-in-out;
-}

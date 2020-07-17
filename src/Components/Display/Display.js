@@ -6,8 +6,8 @@ import classes from './Display.module.css';
 function Display(props) {
     return (
         <div className={classes.display}>
-            <DisplayComp/>
-            <ComputationScreen/>
+            <DisplayComp>{props.result}</DisplayComp>
+            <ComputationScreen>{props.equation}</ComputationScreen>
         </div>
     )
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from '../DisplayComp/DisplayComp.module.css';
 
-function DisplayComp() {
+function DisplayComp(props) {
     return (
         <div className={classes.displayBox}>
-            3124
+            {props.children}
         </div>
     )
 }

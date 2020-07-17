@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './ComputationScreen.module.css';
 
-function computationScreen () {
+function computationScreen (props) {
     return(
         <div className={classes.computation_screen}>
-            3000 + 100 + 20 + 4
+            {props.children}
         </div>
     )
 };
